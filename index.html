@@ -1,26 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Service</title>
-  <!-- Link your CSS file -->
-  <link rel="stylesheet" href="styles.cssa
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <style> 
-
-/* Example media query for smaller screens */
-@media (max-width: 480px) {
-  .services-link,
-  .facebook-link,
-  .telegram-link {
-    padding: 12px 24px; /* Adjust padding to increase button size */
-    font-size: 16px; /* Increase font size for better readability */
-  }
-}
-
-
 
   body {
   font-family: Arial, sans-serif;
@@ -231,11 +218,26 @@ nav ul li a:hover {
   background-color: #005580;
 }
    
-</style>
+ 
+    @media (max-width: 768px) {
+      nav ul li a {
+        padding: 10px 14px; 
+        font-size: 14px; 
+      }
 
+      .services-link,
+      .facebook-link,
+      .telegram-link {
+        padding: 12px 24px; 
+        font-size: 16px; 
+      }
+
+      /* Other adjustments as needed */
+    }
+  </style>
 </head>
-<body>
 
+<body>
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -350,4 +352,5 @@ nav ul li a:hover {
   </footer>
 
 </body>
+
 </html>
